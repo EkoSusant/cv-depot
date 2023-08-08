@@ -212,12 +212,13 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--yellow);
 }
 .about .skills .progress .bar span {
   font-size: 2rem;
   padding: 2rem;
+  background-color: var(--yellow);
 }
+/* menit 33:27 */
 /* media queries */
 @media (max-width: 991px) {
   html {
