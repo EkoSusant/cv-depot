@@ -1,5 +1,5 @@
-const menu = document.querySelector("#menu-btn");
-const header = document.querySelector(".header");
+let menu = document.querySelector("#menu-btn");
+let header = document.querySelector(".header");
 
 menu.onclick = () => {
   menu.classList.toggle("fa-times");
