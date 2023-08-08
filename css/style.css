@@ -209,16 +209,17 @@ section {
   max-width: 70rem;
   border: var(--boder-bold);
   padding: 1rem;
+}
+.about .skills .progress .bar h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.about .skills .progress .bar span {
   font-size: 2rem;
   padding: 2rem;
   background-color: var(--yellow);
 }
-/* menit 33:27 */
+.about .skills .progress .bar span {
+}
 /* media queries */
 @media (max-width: 991px) {
   html {
